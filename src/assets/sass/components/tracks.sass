@@ -1,0 +1,63 @@
+.tracks
+ margin-top: 100px
+ color: #fff
+ &-total
+  padding-bottom: 40px
+  color: #fff
+  font-size: 20px
+  font-weight: 100
+ &-header
+  margin-bottom: 20px
+  padding: 10px 20px
+  width: 100%
+  border-top: 1px solid $color-dark-gray
+  border-bottom: 1px solid $color-dark-gray
+  display: flex
+  justify-content: space-between
+  align-items: center
+  text-transform: uppercase
+  font-weight: 400
+  font-size: 10px
+  &__track
+   width: 40%
+   display: flex
+   justify-content: center
+  &__artist
+   width: 25%
+   display: flex
+   justify-content: flex-start
+  &__album
+   width: 25%
+   display: flex
+   justify-content: flex-start
+  &__duration
+   width: 5%
+   display: flex
+   justify-content: center
+  &__link
+   width: 5%
+   display: flex
+   justify-content: center
+   img
+    width: 20px
+    height: 15px
+    object-fit: contain
+ &-pagination
+  display: flex
+  justify-content: center
+  margin-top: 50px
+  margin-bottom: 150px
+  .ant-pagination-item-link,
+  .ant-pagination-item
+   background-color: transparent
+  .ant-pagination-item
+   border-color: $color-gray
+   a
+    color: $color-gray
+  .ant-pagination-item-active
+   border-color: $color-red
+  .ant-pagination-item-link
+   color: $color-gray
+   border-color: $color-gray
+  .ant-pagination-item-ellipsis
+   color: $color-gray !important

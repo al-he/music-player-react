@@ -1,0 +1,35 @@
+.player
+ padding-top: 20px
+ padding-bottom: 20px
+ width: 100%
+ position: fixed
+ bottom: 0
+ left: 0
+ color: #fff
+ background-color: #23232d
+ display: flex
+ align-items: center
+ justify-content: space-between
+ z-index: 10
+ &-nav, &-info
+  width: 25%
+  display: flex
+  justify-content: center
+  align-items: center
+ &-info
+  font-size: 12px 
+ &-nav
+  font-size: 15px
+  &__icons
+   margin-right: 20px
+   display: flex
+   align-items: center 
+   i:nth-child(2)
+    font-size: 20px
+  .playing
+   color: $color-red
+ &-controller
+  width: 50%
+  &__title
+   padding-bottom: 15px
+   font-size: 12px
